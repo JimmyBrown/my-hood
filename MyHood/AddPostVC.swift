@@ -10,9 +10,10 @@ import UIKit
 
 class AddPostVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    @IBOutlet weak var descField: UITextField!
+    
     @IBOutlet weak var titleField: UITextField!
     @IBOutlet weak var postImg: UIImageView!
+    @IBOutlet weak var descField: UITextField!
     
     var imagePicker: UIImagePickerController!
     
